@@ -1,40 +1,41 @@
-0x11. ES6 data manipulation
-Description💡
+# 0x11. ES6 data manipulation
+
+# Description💡
 Array... Array everywhere
 
-How to use map, filter and reduce on arrays
-Typed arrays
-The Set, Map, and Weak link data structures
-Technologies & Tools💻
-Jest Git Ubuntu Babel JavaScript GNU_Bash Nodejs Vim Vagrant VS_Code ESLint GitHub
+. How to use map, filter and reduce on arrays
+. Typed arrays
+. The Set, Map, and Weak link data structures
 
-Resources📚
+# Resources📚
 Read or watch:
 
-Array
-Typed Array
-Set Data Structure
-Map Data Structure
-WeakMap
-Requirements🔨
-Ubuntu 18.04 LTS using NodeJS 12.22.x
-Jest Testing Framework
-ESLint
-Install NodeJS 12.22.x
+. Array
+. Typed Array
+. Set Data Structure
+. Map Data Structure
+. WeakMap
+
+# Requirements🔨
+. Ubuntu 18.04 LTS using NodeJS 12.22.x
+. Jest Testing Framework
+. ESLint
+
+# Install NodeJS 12.22.x
 foo@pop-os:~$ curl -sL https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh
 foo@pop-os:~$ sudo bash nodesource_setup.sh
 foo@pop-os:~$ sudo apt install nodejs -y
-Check version
+# Check version
 foo@pop-os:~$ nodejs -v
 v12.22.1
 foo@pop-os:~$ npm -v
 6.14.12
-Install Jest, Babel, and ESLint
+# Install Jest, Babel, and ESLint
 foo@pop-os:~$ npm install --save-dev jest
 foo@pop-os:~$ npm install --save-dev babel-jest @babel/core @babel/preset-env
 foo@pop-os:~$ npm install --save-dev eslint
 foo@pop-os:~$ npm install
-Files🗃️
+# Files🗃️
 0. Basic list of objects
 1. More mapping
 2. Filter
