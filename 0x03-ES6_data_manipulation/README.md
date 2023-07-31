@@ -21,24 +21,6 @@ Read or watch:
 * Jest Testing Framework
 * ESLint
 
-# Install NodeJS 12.22.x
-foo@pop-os:~$ npm install --save-dev jest
-foo@pop-os:~$ npm install --save-dev babel-jest @babel/core @babel/preset-env
-foo@pop-os:~$ npm install --save-dev eslint
-foo@pop-os:~$ npm install
-
-# Check version
-foo@pop-os:~$ nodejs -v
-v12.22.1
-foo@pop-os:~$ npm -v
-6.14.12
-
-# Install Jest, Babel, and ESLint
-foo@pop-os:~$ npm install --save-dev jest
-foo@pop-os:~$ npm install --save-dev babel-jest @babel/core @babel/preset-env
-foo@pop-os:~$ npm install --save-dev eslint
-foo@pop-os:~$ npm install
-
 # Files🗃️
 0. Basic list of objects
 1. More mapping
