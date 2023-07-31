@@ -22,9 +22,10 @@ Read or watch:
 * ESLint
 
 # Install NodeJS 12.22.x
-foo@pop-os:~$ curl -sL https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh
-foo@pop-os:~$ sudo bash nodesource_setup.sh
-foo@pop-os:~$ sudo apt install nodejs -y
+foo@pop-os:~$ npm install --save-dev jest
+foo@pop-os:~$ npm install --save-dev babel-jest @babel/core @babel/preset-env
+foo@pop-os:~$ npm install --save-dev eslint
+foo@pop-os:~$ npm install
 
 # Check version
 foo@pop-os:~$ nodejs -v
